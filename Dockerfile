@@ -24,12 +24,6 @@ RUN mkdir -p /home/agent/.claude/plugins && \
     ln -s /opt/claude-plugins/official/external_plugins/context7 /home/agent/.claude/plugins/context7 && \
     ln -s /opt/claude-plugins/official/external_plugins/playwright /home/agent/.claude/plugins/playwright && \
     ln -s /opt/claude-plugins/official/external_plugins/github /home/agent/.claude/plugins/github && \
-    # Official plugins - LSP
-    ln -s /opt/claude-plugins/official/plugins/typescript-lsp /home/agent/.claude/plugins/typescript-lsp && \
-    ln -s /opt/claude-plugins/official/plugins/pyright-lsp /home/agent/.claude/plugins/pyright-lsp && \
-    ln -s /opt/claude-plugins/official/plugins/rust-analyzer-lsp /home/agent/.claude/plugins/rust-analyzer-lsp && \
-    ln -s /opt/claude-plugins/official/plugins/clangd-lsp /home/agent/.claude/plugins/clangd-lsp && \
-    ln -s /opt/claude-plugins/official/plugins/gopls-lsp /home/agent/.claude/plugins/gopls-lsp && \
     # Official plugins - Dev tools
     ln -s /opt/claude-plugins/official/plugins/plugin-dev /home/agent/.claude/plugins/plugin-dev && \
     ln -s /opt/claude-plugins/official/plugins/hookify /home/agent/.claude/plugins/hookify && \
