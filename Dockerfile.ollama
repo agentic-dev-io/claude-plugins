@@ -1,0 +1,9 @@
+FROM ghcr.io/agentic-dev-io/claude-plugins:latest
+
+# Configure for local Ollama (Anthropic-compatible API)
+ENV ANTHROPIC_BASE_URL=http://host.docker.internal:11434/v1
+ENV ANTHROPIC_API_KEY=ollama
+ENV DO_NOT_TRACK=1
+
+USER agent
+WORKDIR /home/agent/workspace
