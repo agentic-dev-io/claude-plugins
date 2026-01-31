@@ -1,6 +1,6 @@
 # Claude Plugins
 
-Claude Code plugins for game development, MCP apps, LLM orchestration, frontend design, and CLI tool creation.
+Production-ready Claude Code plugins: Godot 4.6 game dev toolkit, MCP App UI builder, Open Responses LLM orchestration, creative WebGPU frontends, and AI-First CLI scaffolding.
 
 ## Plugins
 
