@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Comprehensive Claude Code plugin for professional Godot 4.6 development in studios",
   "author": {
-    "name": "Anthropic",
-    "email": "support@anthropic.com"
+    "name": "agentic-dev-io",
+    "url": "https://github.com/agentic-dev-io"
   },
-  "keywords": ["godot", "game-development", "gdscript", "csharp", "shaders", "xr", "virtual-production"]
+  "keywords": ["godot", "game-development", "gdscript", "csharp", "shaders", "xr", "virtual-production"],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "agents": "./agents/",
+  "hooks": "./hooks/"
 }

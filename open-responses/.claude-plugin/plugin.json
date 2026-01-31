@@ -6,5 +6,6 @@
     "name": "agentic-dev-io",
     "url": "https://github.com/agentic-dev-io"
   },
-  "keywords": ["open-responses", "llm", "orchestration", "agents-sdk", "rust", "mcp"]
+  "keywords": ["open-responses", "llm", "orchestration", "agents-sdk", "rust", "mcp"],
+  "skills": "./skills/"
 }

@@ -6,5 +6,6 @@
     "name": "agentic-dev-io",
     "url": "https://github.com/agentic-dev-io"
   },
-  "keywords": ["mcp", "next.js", "react", "tailwind", "shadcn", "ui"]
+  "keywords": ["mcp", "next.js", "react", "tailwind", "shadcn", "ui"],
+  "skills": "./skills/"
 }
