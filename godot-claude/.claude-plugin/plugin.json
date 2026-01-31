@@ -1,0 +1,10 @@
+{
+  "name": "godot-claude",
+  "version": "1.0.0",
+  "description": "Comprehensive Claude Code plugin for professional Godot 4.6 development in studios",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "keywords": ["godot", "game-development", "gdscript", "csharp", "shaders", "xr", "virtual-production"]
+}

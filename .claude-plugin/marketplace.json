@@ -1,0 +1,36 @@
+{
+  "name": "agentic-dev-plugins",
+  "owner": {
+    "name": "agentic-dev-io",
+    "url": "https://github.com/agentic-dev-io"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for game development and more",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "godot-claude",
+      "description": "Comprehensive Godot 4.6 development toolkit for studios. 15 skills covering GDScript, C#, shaders, GDExtension, navigation, animation, audio, patterns, multiplayer, optimization, and more. 9 commands for scene generation, export, and setup wizards. 2 agents for code review and performance analysis. 14 project templates for VP, multiplayer, RPG, FPS, platformer, RTS, racing, and roguelike games.",
+      "source": "./godot-claude",
+      "strict": false,
+      "skills": [
+        "./skills/godot-gdscript",
+        "./skills/godot-csharp",
+        "./skills/godot-shaders",
+        "./skills/godot-gdextension",
+        "./skills/godot-xr-vp",
+        "./skills/godot-assets",
+        "./skills/godot-navigation",
+        "./skills/godot-animation",
+        "./skills/godot-audio",
+        "./skills/godot-tilemap",
+        "./skills/godot-patterns",
+        "./skills/godot-multiplayer",
+        "./skills/godot-optimization",
+        "./skills/godot-genres",
+        "./skills/godot-engine-dev"
+      ]
+    }
+  ]
+}
