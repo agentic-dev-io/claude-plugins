@@ -1,0 +1,21 @@
+[project]
+name = "{{tool_name}}"
+version = "0.1.0"
+description = "AI-friendly CLI tool"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "typer>=0.12",
+  "pydantic>=2.6",
+  "loguru>=0.7",
+]
+
+[project.scripts]
+"{{tool_name}}" = "{{module_name}}.main:app"
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

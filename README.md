@@ -1,6 +1,6 @@
 # Claude Plugins
 
-Claude Code plugins for game development, MCP apps, LLM orchestration, and creative frontend development.
+Claude Code plugins for game development, MCP apps, LLM orchestration, frontend design, and CLI tool creation.
 
 ## Plugins
 
@@ -79,6 +79,28 @@ Create distinctive, production-grade frontend interfaces with WebGPU 3D graphics
 
 ---
 
+### tool-creator
+
+Create AI-First CLI tools with uv, Typer, Pydantic, and Loguru.
+
+| Category | Count | Description |
+|----------|-------|-------------|
+| Skills | 1 | AI-First CLI development patterns |
+| Commands | 1 | `/create-tool` scaffolding wizard |
+| Templates | 2 | CLI project, paired skill |
+| Scripts | 2 | Template application, name validation |
+
+**Features:**
+- uv-based package management (not pip/poetry)
+- `--json` output with stable schema
+- Typer + Pydantic + Loguru stack
+- Paired skill generation for each tool
+- Modern Python 3.11+ patterns
+
+[Full Documentation](./tool-creator/README.md)
+
+---
+
 ## Installation
 
 ```bash
@@ -87,6 +109,7 @@ cc --plugin-dir ./godot-claude
 cc --plugin-dir ./mcp-app-next-ui
 cc --plugin-dir ./open-responses
 cc --plugin-dir ./creative-frontend
+cc --plugin-dir ./tool-creator
 ```
 
 ## License

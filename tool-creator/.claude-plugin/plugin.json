@@ -1,0 +1,10 @@
+{
+  "name": "tool-creator",
+  "version": "1.0.0",
+  "description": "Create AI-First CLI tools with uv, Typer, Pydantic, and Loguru. Scaffolds Python CLIs with --json output and paired skills.",
+  "author": {
+    "name": "agentic-dev-io",
+    "url": "https://github.com/agentic-dev-io"
+  },
+  "keywords": ["cli", "python", "uv", "typer", "pydantic", "ai-first", "tool"]
+}

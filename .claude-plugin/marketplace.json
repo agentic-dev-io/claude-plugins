@@ -5,7 +5,7 @@
     "url": "https://github.com/agentic-dev-io"
   },
   "metadata": {
-    "description": "Claude Code plugins for game development, MCP apps, and LLM orchestration",
+    "description": "Claude Code plugins for game development, MCP apps, LLM orchestration, frontend design, and CLI tool creation",
     "version": "1.0.0"
   },
   "plugins": [
@@ -60,6 +60,15 @@
       "skills": [
         "./skills/frontend-design",
         "./skills/webgpu-threejs-tsl"
+      ]
+    },
+    {
+      "name": "tool-creator",
+      "description": "Create AI-First CLI tools with uv, Typer, Pydantic, and Loguru. Scaffolds Python CLIs with --json output, paired skills, and modern package management.",
+      "source": "./tool-creator",
+      "strict": false,
+      "skills": [
+        "./skills/tool-creator"
       ]
     }
   ]
