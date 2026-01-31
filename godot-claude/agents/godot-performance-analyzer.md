@@ -1,7 +1,7 @@
 ---
 name: godot-performance-analyzer
 description: Analyzes Godot 4.6 scenes and scripts for performance issues, recommending optimizations. Use when the user wants to optimize their Godot project for better FPS or identify bottlenecks.
-tools: Read, Glob, Grep
+tools: ["Read", "Glob", "Grep"]
 model: sonnet
 color: yellow
 ---

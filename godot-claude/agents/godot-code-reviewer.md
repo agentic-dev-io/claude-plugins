@@ -1,7 +1,7 @@
 ---
 name: godot-code-reviewer
 description: Reviews Godot 4.6 GDScript, C#, and shader code for best practices, performance issues, and common mistakes. Use when the user wants a code review after writing or modifying Godot code.
-tools: Read, Glob, Grep
+tools: ["Read", "Glob", "Grep"]
 model: sonnet
 color: magenta
 ---

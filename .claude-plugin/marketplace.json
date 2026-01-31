@@ -11,28 +11,33 @@
   "plugins": [
     {
       "name": "godot-claude",
-      "description": "Comprehensive Godot 4.6 development toolkit for studios. 15 skills covering GDScript, C#, shaders, GDExtension, navigation, animation, audio, patterns, multiplayer, optimization, and more.",
-      "source": "./godot-claude"
+      "description": "Comprehensive Godot 4.6 development toolkit for studios.",
+      "source": "./godot-claude",
+      "strict": true
     },
     {
       "name": "mcp-app-next-ui",
       "description": "Build MCP Apps with Next.js, React, Tailwind CSS, and shadcn/ui.",
-      "source": "./mcp-app-next-ui"
+      "source": "./mcp-app-next-ui",
+      "strict": true
     },
     {
       "name": "open-responses",
       "description": "Open Responses specification implementation for multi-provider LLM orchestration.",
-      "source": "./open-responses"
+      "source": "./open-responses",
+      "strict": true
     },
     {
       "name": "creative-frontend",
       "description": "Create distinctive, production-grade frontend interfaces with WebGPU 3D graphics.",
-      "source": "./creative-frontend"
+      "source": "./creative-frontend",
+      "strict": true
     },
     {
       "name": "tool-creator",
       "description": "Create AI-First CLI tools with uv, Typer, Pydantic, and Loguru.",
-      "source": "./tool-creator"
+      "source": "./tool-creator",
+      "strict": true
     }
   ]
 }
