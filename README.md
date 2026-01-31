@@ -65,6 +65,8 @@ Create distinctive, production-grade frontend interfaces with WebGPU 3D graphics
 | Category | Count | Description |
 |----------|-------|-------------|
 | Skills | 2 | Frontend design, WebGPU/Three.js/TSL |
+| Templates | 6 | Next.js 15 project, WebGPU components, compute shaders |
+| Scripts | 3 | Project setup, component installer, WebGPU checker |
 
 **Features:**
 - Bold UI design avoiding generic AI aesthetics
