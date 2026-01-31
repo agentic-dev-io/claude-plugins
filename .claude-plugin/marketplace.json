@@ -51,6 +51,16 @@
         "./skills/agents-sdk-open-responses",
         "./skills/rust-open-responses-engine"
       ]
+    },
+    {
+      "name": "creative-frontend",
+      "description": "Create distinctive, production-grade frontend interfaces with WebGPU 3D graphics. Combines bold UI design (Next.js, React, Tailwind, shadcn/ui) with Three.js TSL for immersive web experiences.",
+      "source": "./creative-frontend",
+      "strict": false,
+      "skills": [
+        "./skills/frontend-design",
+        "./skills/webgpu-threejs-tsl"
+      ]
     }
   ]
 }

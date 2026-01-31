@@ -1,6 +1,6 @@
 # Claude Plugins
 
-Claude Code plugins for game development, MCP apps, and LLM orchestration.
+Claude Code plugins for game development, MCP apps, LLM orchestration, and creative frontend development.
 
 ## Plugins
 
@@ -58,6 +58,25 @@ Open Responses specification implementation for multi-provider LLM orchestration
 
 ---
 
+### creative-frontend
+
+Create distinctive, production-grade frontend interfaces with WebGPU 3D graphics.
+
+| Category | Count | Description |
+|----------|-------|-------------|
+| Skills | 2 | Frontend design, WebGPU/Three.js/TSL |
+
+**Features:**
+- Bold UI design avoiding generic AI aesthetics
+- Next.js + React + Tailwind + shadcn/ui stack
+- WebGPU 3D graphics with Three.js TSL
+- GPU compute shaders and post-processing
+- Comprehensive shader reference
+
+[Full Documentation](./creative-frontend/README.md)
+
+---
+
 ## Installation
 
 ```bash
@@ -65,6 +84,7 @@ Open Responses specification implementation for multi-provider LLM orchestration
 cc --plugin-dir ./godot-claude
 cc --plugin-dir ./mcp-app-next-ui
 cc --plugin-dir ./open-responses
+cc --plugin-dir ./creative-frontend
 ```
 
 ## License
