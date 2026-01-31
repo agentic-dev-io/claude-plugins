@@ -1,10 +1,6 @@
 ---
 name: open-responses-orchestrator
-description: |
-  Design and orchestrate flows using the Open Responses specification, including OpenAI Responses API
-  compatibility. Enables multi-provider routing, request/response modeling, and integration as a
-  backend for MCP tools and agents.
-license: Complete terms in LICENSE.txt
+description: This skill should be used when the user asks about "Open Responses", "Responses API", "multi-provider routing", "LLM orchestration", "provider agnostic", "streaming SSE", "OpenAI compatible", or needs to route requests across multiple LLM providers (OpenAI, Anthropic, Ollama, LiteLLM).
 ---
 
 # Open Responses Orchestration

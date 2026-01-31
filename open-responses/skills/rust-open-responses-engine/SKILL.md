@@ -1,10 +1,6 @@
 ---
 name: rust-open-responses-engine
-description: |
-  Build Rust backends for OpenAI Responses and Open Responses APIs. Covers HTTP server
-  implementation, streaming responses, and integration with Burn and SmartCore for
-  local inference capabilities.
-license: Complete terms in LICENSE.txt
+description: This skill should be used when the user asks about "Rust LLM server", "Rust Responses API", "Axum LLM", "Burn inference", "SmartCore ML", "Rust streaming SSE", "candle Rust", or needs to build a high-performance Rust backend for LLM orchestration.
 ---
 
 # Rust Open Responses Engine

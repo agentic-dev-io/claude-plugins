@@ -1,10 +1,6 @@
 ---
 name: agents-sdk-open-responses
-description: |
-  Build agent workflows using the OpenAI Agents SDK with Responses API and Open Responses.
-  Supports local model execution via Ollama, LiteLLM, and custom routers for flexible
-  agent orchestration and tool execution.
-license: Complete terms in LICENSE.txt
+description: This skill should be used when the user asks about "Agents SDK", "OpenAI Agents", "agent workflows", "agent handoffs", "agent guardrails", "local agents Ollama", "LiteLLM agents", or needs to build agent systems with the OpenAI Agents SDK and local model backends.
 ---
 
 # Agents SDK with Open Responses

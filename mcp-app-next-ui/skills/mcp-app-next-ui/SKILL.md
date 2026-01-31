@@ -1,10 +1,6 @@
 ---
 name: mcp-app-next-ui
-description: |
-  Build MCP Apps with Next.js, React, Tailwind CSS, and shadcn/ui. Covers `_meta.ui.resourceUri`,
-  `registerAppResource`, and `@modelcontextprotocol/ext-apps/react` for creating interactive
-  UI components that communicate with MCP servers via iframe embedding.
-license: Complete terms in LICENSE.txt
+description: This skill should be used when the user asks about "MCP App", "MCP UI", "registerAppResource", "useApp hook", "useHostStyles", "@modelcontextprotocol/ext-apps", "iframe MCP", "Next.js MCP", "shadcn MCP", or needs to build interactive UI components that communicate with MCP servers.
 ---
 
 # MCP App UI Development with Next.js
