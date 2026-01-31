@@ -1,6 +1,6 @@
 # Claude Plugins
 
-Claude Code plugins for game development and more.
+Claude Code plugins for game development, MCP apps, and LLM orchestration.
 
 ## Plugins
 
@@ -15,26 +15,56 @@ Comprehensive Godot 4.6 development toolkit for professional studios.
 | Agents | 2 | Code reviewer, performance analyzer |
 | Templates | 14 | VP, multiplayer, procedural, RPG, FPS, platformer, RTS, racing, roguelike |
 
-**Godot 4.6 Features Covered:**
-- Jolt Physics (default for 3D)
-- Modular IK Framework (Two-Bone, Spline, FABRIK)
-- Improved SSR
-- Direct3D 12 (Windows default)
-- LibGodot integration
-- OpenXR 1.1 support
-- GDExtension JSON bindings
-- Enhanced NavigationServer
-- AnimationTree improvements
+**Godot 4.6 Features:** Jolt Physics, IK Framework, NavigationServer, AnimationTree, Direct3D 12, LibGodot, OpenXR 1.1
 
 [Full Documentation](./godot-claude/README.md)
+
+---
+
+### mcp-app-next-ui
+
+Build MCP Apps with Next.js, React, Tailwind CSS, and shadcn/ui.
+
+| Category | Count | Description |
+|----------|-------|-------------|
+| Skills | 1 | MCP App UI development patterns |
+
+**Features:**
+- `@modelcontextprotocol/ext-apps/react` integration
+- `useApp`, `useHostStyles` hooks
+- `registerAppResource` server-side setup
+- iframe embedding for interactive UI
+
+[Full Documentation](./mcp-app-next-ui/skills/mcp-app-next-ui/SKILL.md)
+
+---
+
+### open-responses
+
+Open Responses specification implementation for multi-provider LLM orchestration.
+
+| Category | Count | Description |
+|----------|-------|-------------|
+| Skills | 3 | Orchestrator, Agents SDK, Rust engine |
+
+**Features:**
+- Multi-provider routing (OpenAI, Anthropic, local models)
+- Streaming support with SSE
+- Tool calling and structured outputs
+- Anthropic Agents SDK integration
+- Rust backend implementation
+
+[Full Documentation](./open-responses/skills/open-responses-orchestrator/SKILL.md)
+
+---
 
 ## Installation
 
 ```bash
 # Via Claude Code CLI
 cc --plugin-dir ./godot-claude
-
-# Or add to your Claude Code settings
+cc --plugin-dir ./mcp-app-next-ui
+cc --plugin-dir ./open-responses
 ```
 
 ## License

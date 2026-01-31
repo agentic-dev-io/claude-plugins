@@ -1,0 +1,10 @@
+{
+  "name": "open-responses",
+  "version": "1.0.0",
+  "description": "Open Responses specification implementation for multi-provider LLM orchestration",
+  "author": {
+    "name": "agentic-dev-io",
+    "url": "https://github.com/agentic-dev-io"
+  },
+  "keywords": ["open-responses", "llm", "orchestration", "agents-sdk", "rust", "mcp"]
+}

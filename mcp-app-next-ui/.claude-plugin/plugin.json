@@ -1,0 +1,10 @@
+{
+  "name": "mcp-app-next-ui",
+  "version": "1.0.0",
+  "description": "Build MCP Apps with Next.js, React, Tailwind CSS, and shadcn/ui",
+  "author": {
+    "name": "agentic-dev-io",
+    "url": "https://github.com/agentic-dev-io"
+  },
+  "keywords": ["mcp", "next.js", "react", "tailwind", "shadcn", "ui"]
+}

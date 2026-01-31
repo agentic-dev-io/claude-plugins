@@ -5,7 +5,7 @@
     "url": "https://github.com/agentic-dev-io"
   },
   "metadata": {
-    "description": "Claude Code plugins for game development and more",
+    "description": "Claude Code plugins for game development, MCP apps, and LLM orchestration",
     "version": "1.0.0"
   },
   "plugins": [
@@ -30,6 +30,26 @@
         "./skills/godot-optimization",
         "./skills/godot-genres",
         "./skills/godot-engine-dev"
+      ]
+    },
+    {
+      "name": "mcp-app-next-ui",
+      "description": "Build MCP Apps with Next.js, React, Tailwind CSS, and shadcn/ui. Covers registerAppResource, useApp, useHostStyles, and iframe embedding for interactive UI components that communicate with MCP servers.",
+      "source": "./mcp-app-next-ui",
+      "strict": false,
+      "skills": [
+        "./skills/mcp-app-next-ui"
+      ]
+    },
+    {
+      "name": "open-responses",
+      "description": "Open Responses specification implementation for multi-provider LLM orchestration. Skills for orchestration patterns, Anthropic Agents SDK integration, and Rust backend development.",
+      "source": "./open-responses",
+      "strict": false,
+      "skills": [
+        "./skills/open-responses-orchestrator",
+        "./skills/agents-sdk-open-responses",
+        "./skills/rust-open-responses-engine"
       ]
     }
   ]
