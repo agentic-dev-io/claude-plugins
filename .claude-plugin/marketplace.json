@@ -11,65 +11,28 @@
   "plugins": [
     {
       "name": "godot-claude",
-      "description": "Comprehensive Godot 4.6 development toolkit for studios. 15 skills covering GDScript, C#, shaders, GDExtension, navigation, animation, audio, patterns, multiplayer, optimization, and more. 9 commands for scene generation, export, and setup wizards. 2 agents for code review and performance analysis. 14 project templates for VP, multiplayer, RPG, FPS, platformer, RTS, racing, and roguelike games.",
-      "source": "./godot-claude",
-      "strict": false,
-      "skills": [
-        "./skills/godot-gdscript",
-        "./skills/godot-csharp",
-        "./skills/godot-shaders",
-        "./skills/godot-gdextension",
-        "./skills/godot-xr-vp",
-        "./skills/godot-assets",
-        "./skills/godot-navigation",
-        "./skills/godot-animation",
-        "./skills/godot-audio",
-        "./skills/godot-tilemap",
-        "./skills/godot-patterns",
-        "./skills/godot-multiplayer",
-        "./skills/godot-optimization",
-        "./skills/godot-genres",
-        "./skills/godot-engine-dev"
-      ]
+      "description": "Comprehensive Godot 4.6 development toolkit for studios. 15 skills covering GDScript, C#, shaders, GDExtension, navigation, animation, audio, patterns, multiplayer, optimization, and more.",
+      "source": "./godot-claude"
     },
     {
       "name": "mcp-app-next-ui",
-      "description": "Build MCP Apps with Next.js, React, Tailwind CSS, and shadcn/ui. Covers registerAppResource, useApp, useHostStyles, and iframe embedding for interactive UI components that communicate with MCP servers.",
-      "source": "./mcp-app-next-ui",
-      "strict": false,
-      "skills": [
-        "./skills/mcp-app-next-ui"
-      ]
+      "description": "Build MCP Apps with Next.js, React, Tailwind CSS, and shadcn/ui.",
+      "source": "./mcp-app-next-ui"
     },
     {
       "name": "open-responses",
-      "description": "Open Responses specification implementation for multi-provider LLM orchestration. Skills for orchestration patterns, Anthropic Agents SDK integration, and Rust backend development.",
-      "source": "./open-responses",
-      "strict": false,
-      "skills": [
-        "./skills/open-responses-orchestrator",
-        "./skills/agents-sdk-open-responses",
-        "./skills/rust-open-responses-engine"
-      ]
+      "description": "Open Responses specification implementation for multi-provider LLM orchestration.",
+      "source": "./open-responses"
     },
     {
       "name": "creative-frontend",
-      "description": "Create distinctive, production-grade frontend interfaces with WebGPU 3D graphics. Combines bold UI design (Next.js, React, Tailwind, shadcn/ui) with Three.js TSL for immersive web experiences.",
-      "source": "./creative-frontend",
-      "strict": false,
-      "skills": [
-        "./skills/frontend-design",
-        "./skills/webgpu-threejs-tsl"
-      ]
+      "description": "Create distinctive, production-grade frontend interfaces with WebGPU 3D graphics.",
+      "source": "./creative-frontend"
     },
     {
       "name": "tool-creator",
-      "description": "Create AI-First CLI tools with uv, Typer, Pydantic, and Loguru. Scaffolds Python CLIs with --json output, paired skills, and modern package management.",
-      "source": "./tool-creator",
-      "strict": false,
-      "skills": [
-        "./skills/tool-creator"
-      ]
+      "description": "Create AI-First CLI tools with uv, Typer, Pydantic, and Loguru.",
+      "source": "./tool-creator"
     }
   ]
 }

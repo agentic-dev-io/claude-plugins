@@ -1,33 +1,9 @@
 ---
 name: godot-code-reviewer
-description: Reviews Godot 4.6 GDScript, C#, and shader code for best practices, performance issues, and common mistakes
+description: Reviews Godot 4.6 GDScript, C#, and shader code for best practices, performance issues, and common mistakes. Use when the user wants a code review after writing or modifying Godot code.
+tools: Read, Glob, Grep
 model: sonnet
 color: magenta
-whenToUse: |
-  Use this agent when the user has written or modified Godot code and wants a code review,
-  or when proactive_review is enabled in settings after .gd, .cs, or .gdshader file changes.
-
-  <example>
-  Context: User just finished writing a GDScript player controller
-  user: "Can you review my player.gd for any issues?"
-  assistant: Uses godot-code-reviewer to analyze the script
-  </example>
-
-  <example>
-  Context: User modified an enemy AI script
-  user: "Check this enemy script for performance problems"
-  assistant: Uses godot-code-reviewer to find performance antipatterns
-  </example>
-
-  <example>
-  Context: proactive_review is enabled, user just edited a shader
-  system: PostToolUse hook suggests review after .gdshader edit
-  assistant: Offers to run godot-code-reviewer on the shader
-  </example>
-tools:
-  - Read
-  - Glob
-  - Grep
 ---
 
 # Godot Code Reviewer Agent

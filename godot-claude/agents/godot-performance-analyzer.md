@@ -1,33 +1,9 @@
 ---
 name: godot-performance-analyzer
-description: Analyzes Godot 4.6 scenes and scripts for performance issues, recommending optimizations
+description: Analyzes Godot 4.6 scenes and scripts for performance issues, recommending optimizations. Use when the user wants to optimize their Godot project for better FPS or identify bottlenecks.
+tools: Read, Glob, Grep
 model: sonnet
 color: yellow
-whenToUse: |
-  Use this agent when the user wants to analyze their Godot project for performance problems,
-  optimize scenes for better FPS, reduce draw calls, or identify bottlenecks in their code.
-
-  <example>
-  Context: User is experiencing low FPS in their game
-  user: "My game runs at 30 FPS, can you analyze it for performance issues?"
-  assistant: Uses godot-performance-analyzer to scan scenes and scripts
-  </example>
-
-  <example>
-  Context: User wants to optimize before release
-  user: "Analyze my project for optimization opportunities"
-  assistant: Uses godot-performance-analyzer to review the codebase
-  </example>
-
-  <example>
-  Context: User has a specific scene that's slow
-  user: "The main_level.tscn scene is causing lag"
-  assistant: Uses godot-performance-analyzer focused on that scene
-  </example>
-tools:
-  - Read
-  - Glob
-  - Grep
 ---
 
 # Godot Performance Analyzer Agent
