@@ -1,0 +1,6 @@
+.git
+.claude
+*.md
+!**/SKILL.md
+!**/README.md
+LICENSE
