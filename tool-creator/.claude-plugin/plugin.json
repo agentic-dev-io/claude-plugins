@@ -6,7 +6,5 @@
     "name": "agentic-dev-io",
     "url": "https://github.com/agentic-dev-io"
   },
-  "keywords": ["cli", "python", "uv", "typer", "pydantic", "ai-first", "tool"],
-  "skills": "./skills/",
-  "commands": "./commands/"
+  "keywords": ["cli", "python", "uv", "typer", "pydantic", "ai-first", "tool"]
 }

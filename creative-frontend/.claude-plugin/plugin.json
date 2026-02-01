@@ -6,6 +6,5 @@
     "name": "agentic-dev-io",
     "url": "https://github.com/agentic-dev-io"
   },
-  "keywords": ["frontend", "design", "webgpu", "threejs", "tsl", "react", "nextjs", "tailwind", "shadcn", "3d", "shaders"],
-  "skills": "./skills/"
+  "keywords": ["frontend", "design", "webgpu", "threejs", "tsl", "react", "nextjs", "tailwind", "shadcn", "3d", "shaders"]
 }
