@@ -5,7 +5,7 @@
     "url": "https://github.com/agentic-dev-io"
   },
   "metadata": {
-    "description": "Production-ready Claude Code plugins: Godot 4.6 game dev toolkit, MCP App UI builder, Open Responses LLM orchestration, creative WebGPU frontends, and AI-First CLI scaffolding",
+    "description": "Production-ready Claude Code plugins: MCP App UI builder, Open Responses LLM orchestration, creative WebGPU frontends, and AI-First CLI scaffolding",
     "version": "1.0.0"
   },
   "plugins": [

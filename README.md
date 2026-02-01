@@ -2,10 +2,10 @@
 
 [![License: Ethical Source](https://img.shields.io/badge/License-Ethical%20Source-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-8A2BE2)](https://docs.anthropic.com/en/docs/claude-code)
-[![Plugins](https://img.shields.io/badge/Plugins-5-green)]()
-[![Skills](https://img.shields.io/badge/Skills-22-orange)]()
+[![Plugins](https://img.shields.io/badge/Plugins-4-green)]()
+[![Skills](https://img.shields.io/badge/Skills-7-orange)]()
 
-Production-ready Claude Code plugins for game development, interactive UIs, LLM orchestration, creative frontends, and CLI tooling.
+Production-ready Claude Code plugins for interactive UIs, LLM orchestration, creative frontends, and CLI tooling.
 
 ## Quick Start
 
@@ -15,8 +15,8 @@ git clone https://github.com/agentic-dev-io/claude-plugins.git
 cd claude-plugins
 
 # Load a plugin in Claude Code
-claude --plugin-dir ./godot-claude
 claude --plugin-dir ./creative-frontend
+claude --plugin-dir ./open-responses
 # ... etc
 ```
 
@@ -24,30 +24,10 @@ claude --plugin-dir ./creative-frontend
 
 | Plugin | Skills | Commands | Description |
 |--------|--------|----------|-------------|
-| [godot-claude](#godot-claude) | 15 | 9 | Godot 4.6 game development toolkit |
 | [mcp-app-next-ui](#mcp-app-next-ui) | 1 | - | MCP App UI with Next.js |
 | [open-responses](#open-responses) | 3 | - | Multi-provider LLM orchestration |
 | [creative-frontend](#creative-frontend) | 2 | - | WebGPU + Three.js frontends |
 | [tool-creator](#tool-creator) | 1 | 1 | AI-First CLI scaffolding |
-
----
-
-### godot-claude
-
-Comprehensive Godot 4.6 development toolkit for professional studios.
-
-| Category | Count | Description |
-|----------|-------|-------------|
-| Skills | 15 | GDScript, C#, shaders, GDExtension, navigation, animation, audio, patterns, multiplayer, optimization, genres, engine-dev |
-| Commands | 9 | Scene/shader generation, export, FSM, navigation, audio, netcode setup |
-| Agents | 2 | Code reviewer, performance analyzer |
-| Templates | 14 | VP, multiplayer, procedural, RPG, FPS, platformer, RTS, racing, roguelike |
-
-**Godot 4.6 Features:** Jolt Physics, IK Framework, NavigationServer, AnimationTree, Direct3D 12, LibGodot, OpenXR 1.1
-
-**Links:** [Godot Engine](https://godotengine.org/) · [GDScript Docs](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/) · [Godot 4.6 Release](https://godotengine.org/releases/4.6/)
-
-[Full Documentation](./godot-claude/README.md)
 
 ---
 
