@@ -10,12 +10,6 @@
   },
   "plugins": [
     {
-      "name": "godot-claude",
-      "description": "Comprehensive Godot 4.6 development toolkit for studios.",
-      "source": "./godot-claude",
-      "strict": true
-    },
-    {
       "name": "mcp-app-next-ui",
       "description": "Build MCP Apps with Next.js, React, Tailwind CSS, and shadcn/ui.",
       "source": "./mcp-app-next-ui",
