@@ -5,7 +5,7 @@
     "url": "https://github.com/agentic-dev-io"
   },
   "metadata": {
-    "description": "Production-ready Claude Code plugins: MCP App UI builder, Open Responses LLM orchestration, creative WebGPU frontends, and AI-First CLI scaffolding",
+    "description": "Production-ready Claude Code plugins: MCP App UI builder, Open Responses LLM orchestration, and AI-First CLI scaffolding",
     "version": "1.0.0"
   },
   "plugins": [
@@ -19,12 +19,6 @@
       "name": "open-responses",
       "description": "Open Responses specification implementation for multi-provider LLM orchestration.",
       "source": "./open-responses",
-      "strict": true
-    },
-    {
-      "name": "creative-frontend",
-      "description": "Create distinctive, production-grade frontend interfaces with WebGPU 3D graphics.",
-      "source": "./creative-frontend",
       "strict": true
     },
     {
