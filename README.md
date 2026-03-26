@@ -1,5 +1,7 @@
 # Claude Plugins
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N71WOHZ3)
+
 [![License: Ethical Source](https://img.shields.io/badge/License-Ethical%20Source-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-8A2BE2)](https://docs.anthropic.com/en/docs/claude-code)
 [![Plugins](https://img.shields.io/badge/Plugins-4-green)]()
